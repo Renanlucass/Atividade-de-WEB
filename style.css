@@ -1,79 +1,81 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-  }
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  header{
-    display: flex;
-    width: 100%;
-    height: 60px;
-    justify-content: space-between;
-    align-items: center;
-    background-color:blueviolet;
-  }
+header{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color:blueviolet;
+}
 
-  h3{
-    padding: 15px;
-    border-radius: 15px;
-    margin: 20px;
-    background-color: white;
-  }
+h3{
+  padding: 15px;
+  border-radius: 15px;
+  margin: 20px;
+  background-color: white;
+}
 
-  ul{
-    display: flex;
-    margin-right: 20px;
-    align-items: center;
-  }
+ul{
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
 
-  li{
-    color: white;
-    list-style: none;
-  }
+li{
+  color: white;
+  list-style: none;
+  margin: 3px;
+}
 
-  a{
-    color: white;
-    text-decoration: none;
-    margin: 3px;
-  }
+a{
+  color: white;
+  text-decoration: none;
+  margin: 3px;
+}
  
-  main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  div{ 
-    min-width: 200px;
-    height: 200px;
-    margin: 50px;
-    border-radius: 30px;
-  }
+div{ 
+  min-width: 200px;
+  height: 200px;
+  margin: 50px;
+  border-radius: 30px;
+}
 
-  p{
-    text-align: center;
-    margin-top: 30px;
-  }
+p{
+  text-align: center;
+  margin-top: 30px;
+}
 
-  .menu{
-    text-decoration: underline;
-  }
+.menu{
+  text-decoration: underline;
+}
    
-  .divMissao{
-    
-    background-color:green;
+.divMissao{
+    background-color: green;
   }
-  .divVisao{
-   
-    background-color: cornflowerblue;
+.divVisao{
+   background-color: cornflowerblue;
   }
-  .divValores{
-    
+.divValores{
     background-color: orange;
   }
 
-  footer{
-    width: 100%;
-    height: 60px;
-    background-color: gray;
-  }
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: gray;
+}
