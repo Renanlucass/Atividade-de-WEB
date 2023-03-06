@@ -17,11 +17,9 @@ header{
   background-color:blueviolet;
 }
 
-h3{
-  padding: 15px;
-  border-radius: 15px;
-  margin: 20px;
-  background-color: white;
+img{
+  max-height: 100%;
+  max-width: 100%;
 }
 
 ul{
